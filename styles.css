@@ -1,6 +1,21 @@
-
 img {
   width: 70%;
+}
+
+.index-background {
+  background-color: lightyellow;
+}
+
+.practical-4-body {
+  background-color: lightyellow;
+}
+
+.offline-image {
+  text-align: center;
+}
+
+.live-image {
+  text-align: center;
 }
 
 .document-block {
@@ -10,7 +25,6 @@ img {
 .inner {
   margin-left: 65px;
 }
-
 
 /* Colour Section */
 .red-color {
@@ -27,16 +41,4 @@ img {
 
 .green-color {
   color: green;
-}
-
-.index-background {
-  background-color: lightyellow;
-}
-
-.offline-image {
-  text-align: center;
-}
-
-.live-image {
-  text-align: center;
 }
