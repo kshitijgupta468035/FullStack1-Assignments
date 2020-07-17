@@ -1,0 +1,42 @@
+
+img {
+  width: 70%;
+}
+
+.document-block {
+  font-size: 1.5rem;
+}
+
+.inner {
+  margin-left: 65px;
+}
+
+
+/* Colour Section */
+.red-color {
+  color: red;
+}
+
+.blue-color {
+  color: blue;
+}
+
+.skyblue-color {
+  color: skyblue;
+}
+
+.green-color {
+  color: green;
+}
+
+.index-background {
+  background-color: lightyellow;
+}
+
+.offline-image {
+  text-align: center;
+}
+
+.live-image {
+  text-align: center;
+}
