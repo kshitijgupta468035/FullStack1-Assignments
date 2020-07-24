@@ -1,4 +1,6 @@
-.imgage {
+/* practical 1 to 4 */
+
+.image {
   width: 70%;
 }
 
@@ -43,6 +45,24 @@
   color: green;
 }
 
+/* Practical 5 */
+
 .practical-5 {
   background-color: lightgrey;
+}
+
+.image-map {
+  text-align: center;
+}
+
+img[usemap], map area {
+  outline: none;
+}
+
+.intro-front {
+  color: white;
+}
+
+h4 {
+  color: red;
 }
