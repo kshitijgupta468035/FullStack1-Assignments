@@ -68,9 +68,9 @@ h4 {
 }
 
 
-/* html.html */
+/* html.html, css.html, javascript.html, bootstrap.html */
 
-.html {
+.html, .css {
   background-color: lightgrey;
 }
 
@@ -78,13 +78,17 @@ h4 {
   text-align: center;
 }
 
-.html-img {
+.html-img, .css-img {
   width: 40%;
 }
 
-.html-intro {
+.html-intro, .css-intro {
   background-color: grey;
   color: white;
   text-align: justify;
   padding: 10px;
+}
+
+.css-intro {
+  text-decoration: overline;;
 }
