@@ -66,3 +66,25 @@ img[usemap], map area {
 h4 {
   color: red;
 }
+
+
+/* html.html */
+
+.html {
+  background-color: lightgrey;
+}
+
+.intro-section {
+  text-align: center;
+}
+
+.html-img {
+  width: 40%;
+}
+
+.html-intro {
+  background-color: grey;
+  color: white;
+  text-align: justify;
+  padding: 10px;
+}
