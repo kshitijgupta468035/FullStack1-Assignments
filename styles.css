@@ -70,7 +70,7 @@ h4 {
 
 /* html.html, css.html, javascript.html, bootstrap.html */
 
-.html, .css, .javascript {
+.html, .css, .javascript, .bootstrap {
   background-color: lightgrey;
 }
 
@@ -78,11 +78,11 @@ h4 {
   text-align: center;
 }
 
-.html-img, .css-img, .javascript-img {
+.html-img, .css-img, .javascript-img, .bootstrap-img {
   width: 40%;
 }
 
-.html-intro, .css-intro, .javascript-intro {
+.html-intro, .css-intro, .javascript-intro, .bootstrap-intro {
   background-color: grey;
   color: white;
   text-align: justify;
