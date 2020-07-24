@@ -85,6 +85,7 @@ h4 {
 .html-intro, .css-intro, .javascript-intro, .bootstrap-intro {
   background-color: grey;
   color: white;
+  font-size: 1.2rem;
   text-align: justify;
   padding: 10px;
 }
