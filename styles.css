@@ -1,4 +1,4 @@
-img {
+.imgage {
   width: 70%;
 }
 
@@ -41,4 +41,8 @@ img {
 
 .green-color {
   color: green;
+}
+
+.practical-5 {
+  background-color: lightgrey;
 }
