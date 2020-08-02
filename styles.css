@@ -99,6 +99,7 @@ h4 {
 
 .practical-6 {
   background-color: lightgray;
+  text-align: center;
 
 }
 
@@ -154,5 +155,20 @@ h4 {
 }
 
 .read:hover {
+  background-color: blue;
+}
+
+.home {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.home:hover {
   background-color: blue;
 }
