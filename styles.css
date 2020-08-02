@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 /* practical 1 to 4 */
 
 .image {
@@ -88,4 +92,67 @@ h4 {
   font-size: 1.2rem;
   text-align: justify;
   padding: 10px;
+}
+
+
+/* Styles for practical 6.html */
+
+.practical-6 {
+  background-color: lightgray;
+
+}
+
+.full-page {
+  text-align: center;
+}
+
+.head-practical6{
+  color: white;
+}
+
+.card {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 5px #ebecf1;
+  width: 22%;
+  text-align: center;
+  float: left;
+  margin-right: 15px;
+  margin-top: 25px;
+  margin-left: 20px;
+  padding: 20px;
+
+
+}
+
+.card-img {
+  width: 97%;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.card-des {
+  font-size: 1rem;
+}
+.intro {
+  text-align: justify;
+  padding: 10px;
+}
+
+.read {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: red;
+  width:95%;
+}
+
+.read:hover {
+  background-color: blue;
 }
