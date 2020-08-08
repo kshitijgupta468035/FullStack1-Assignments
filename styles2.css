@@ -132,3 +132,10 @@
   font-size: 2rem;
   background-color: grey;
 }
+
+a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+}
