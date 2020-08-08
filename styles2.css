@@ -20,6 +20,8 @@
   border: solid 2px white;
 }
 
+
+/* Header Section  */
 .header {
   display: flex;
   justify-content: center;
@@ -39,6 +41,8 @@
   background-color: skyblue;
 }
 
+
+/* All sections headings */
 .head1, .head2, .head3, .head4 {
   text-align: center;
   font-size: 1.5rem;
@@ -46,6 +50,12 @@
   color: black;
 }
 
+.section2, .section3, .section-4 {
+  margin: 20px 0;
+}
+
+
+/* Section 1 */
 .avatar {
   display: flex;
   justify-content: center;
@@ -60,9 +70,7 @@
   margin: 0 20px;
 }
 
-.section2, .section3, .section-4 {
-  margin: 20px 0;
-}
+
 
 .section2::after {
   content: "";
@@ -70,6 +78,8 @@
   clear: both;
 }
 
+
+/* All Section 2 */
 .main-content {
   height: 465px;
   background-color: lightgreen;
@@ -86,16 +96,7 @@
   height: 465px;
 }
 
-.ar-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 145px;
-  background-color: lightblue;
-  margin-bottom: 15px;
-}
-
-.ar-2 {
+.ar-1, .ar-2, .ar-3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,13 +106,10 @@
 }
 
 .ar-3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 145px;
-  background-color: lightblue;
+  margin: 0;
 }
 
+/* Section 3 */
 .box-avatar {
   display: flex;
   justify-content: center;
@@ -123,6 +121,8 @@
   height: 250px;
   margin: 0 20px;
 }
+
+/* Section 4 */
 
 .footer {
   display: flex;
