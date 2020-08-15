@@ -2,4 +2,161 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.full-page {
+  margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.header-bar {
+  list-style-type: none;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+
+
+.head-links {
+  display: inline-block;
+ font-size: 1.5rem;
+ color: white;
+ padding: 10px 20px;
+ text-decoration: none;
+ margin: 0 25px;
+}
+
+.head-links:hover {
+  background-color: white;
+  color: black;
+}
+
+.main-image {
+  height: 100vh;
+  background-image: url("./images/pa8.jpg");
+
+  background-size: cover;
+}
+
+.main-head {
+  margin-left: 20px;
+  color: white;
+  font-size: 4rem;
+  margin-top: 20px;
+}
+
+.team-section {
+  margin: 20px 0;
+}
+
+.head1, .head2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.av-1, .av-2, .av-3, .av-4 {
+  width: 19%;
+  height: 200px;
+  background-color: pink;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+
+.av-1 {
+  background-image: url(./images/1.png);
+  background-position: center;
+}
+
+
+.av-2 {
+  background-image: url(./images/2.png);
+  background-position: center;
+}
+
+.av-3 {
+  background-image: url(./images/3.png);
+  background-position: center;
+}
+
+.av-4 {
+  background-image: url(./images/9.png);
+  background-position: center;
+}
+
+
+.main-content {
+  height: 465px;
+  background-color: grey;
+  text-align: justify;
+  float: left;
+  width: 48%;
+  overflow: hidden;
+}
+
+.main-content h2 {
+  margin: 20px 10px;
+  color: white;
+}
+
+.main-content p {
+  padding: 10px;
+  line-height: 1.5;
+  color: white;
+}
+
+.articles {
+  float: right;
+  width: 48%;
+  height: 465px;
+}
+
+.ar-1, .ar-2, .ar-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 145px;
+  background-color: lightblue;
+  margin-bottom: 15px;
+}
+
+.ar-1 {
+  background-image: url("./images/p1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ar-2 {
+  background-image: url("./images/p2.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ar-3 {
+  margin: 0;
+  background-image: url("./images/p3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .head-links {
+    display: inline-block;
+   font-size: 1rem;
+   color: white;
+   padding: 5px 10px;
+   text-decoration: none;
+   margin: 0 20px;
+  }
 }
