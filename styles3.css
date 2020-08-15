@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,8 +19,10 @@
   display: flex;
   justify-content: center;
   padding: 10px;
+
   position: sticky;
-  top: 0;
+  top: 0px;
+
 }
 
 
@@ -28,6 +34,7 @@
  padding: 10px 20px;
  text-decoration: none;
  margin: 0 25px;
+
 }
 
 .head-links:hover {
@@ -36,6 +43,7 @@
 }
 
 .main-image {
+  margin-top: 100px;
   height: 100vh;
   background-image: url("./images/pa8.jpg");
 
@@ -49,15 +57,14 @@
   margin-top: 20px;
 }
 
-.team-section {
-  margin: 20px 0;
+.team-section, .about-section, .technology-section, .contact-section {
+  margin: 100px 0 0 0;
 }
-
 
 
 .head1, .head2, .head3, .head4 {
   text-align: center;
-  margin: 20px 0;
+  margin: 50px 0;
 }
 
 
@@ -97,9 +104,7 @@
 }
 
 
-.about-section {
-  margin: 20px 0;
-}
+
 
 .about-section::after {
   content: "";
@@ -162,9 +167,6 @@
 }
 
 
-.technology-section {
-  margin: 50px 0;
-}
 
 .technology-row {
   display: flex;
@@ -251,9 +253,10 @@
 }
 
 .contact-information a {
+  display: inline-block;
   text-decoration: none;
   font-size: 1.5rem;
-  margin: 0 10px;
+  margin: 30px 10px 0;
   border: solid 1px;
   border-radius: 10px;
   background-color: #ebecf1;
