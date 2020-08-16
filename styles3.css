@@ -13,19 +13,17 @@ html {
   margin: 0 1.5rem 1.5rem 1.5rem;
 }
 
+/* Header Section */
 .header-bar {
+  position: sticky;
+  top: 0px;
   list-style-type: none;
   background-color: grey;
   display: flex;
   justify-content: center;
   padding: 10px;
 
-  position: sticky;
-  top: 0px;
-
 }
-
-
 
 .head-links {
   display: inline-block;
@@ -33,7 +31,7 @@ html {
  color: white;
  padding: 10px 20px;
  text-decoration: none;
- margin: 0 25px;
+ margin: 0 30px;
 
 }
 
@@ -42,32 +40,33 @@ html {
   color: black;
 }
 
+/* Main Image section */
 .main-image {
-  margin-top: 100px;
+  margin-top: 85px;
   height: 100vh;
   background-image: url("./images/pa8.jpg");
-
   background-size: cover;
 }
 
 .main-head {
-  margin-left: 20px;
+
   color: white;
   font-size: 4rem;
-  margin-top: 20px;
+
 }
 
+/* All Section margins */
 .team-section, .about-section, .technology-section, .contact-section {
   margin: 100px 0 0 0;
 }
 
-
+/* All Headings */
 .head1, .head2, .head3, .head4 {
   text-align: center;
   margin: 50px 0;
 }
 
-
+/* Team Section */
 .avatar {
   display: flex;
   justify-content: center;
@@ -104,14 +103,14 @@ html {
 }
 
 
-
-
 .about-section::after {
   content: "";
   display: block;
   clear: both
 }
 
+
+/* About Us Section */
 .main-content {
   height: 465px;
   background-color: grey;
@@ -167,7 +166,7 @@ html {
 }
 
 
-
+/* technology Section */
 .technology-row {
   display: flex;
   justify-content: center;
@@ -183,8 +182,6 @@ html {
   margin-right: 35px;
   margin-top: 25px;
   margin-left: 20px;
-
-
 
 }
 
@@ -234,17 +231,9 @@ html {
 .home:hover {
   background-color: blue;
 }
-@media (min-width: 600px) and (max-width: 800px) {
-  .head-links {
-    display: inline-block;
-   font-size: 1rem;
-   color: white;
-   padding: 5px 10px;
-   text-decoration: none;
-   margin: 0 20px;
-  }
-}
 
+
+/* Contact Section */
 .contact-information {
   text-align: center;
   background-color: #cffffe;
@@ -271,4 +260,39 @@ html {
 
 .contact-information a:hover {
   background-color: #00bcd4;
+}
+
+
+@media (max-width: 1100px) and (min-width: 842px) {
+  .head-links {
+    display: inline-block;
+   font-size: 1.3rem;
+   color: white;
+   padding: 5px 10px;
+   text-decoration: none;
+   margin: 0 30px;
+  }
+}
+
+@media (min-width: 671px) and (max-width: 841px) {
+  .head-links {
+    display: inline-block;
+   font-size: 1rem;
+   color: white;
+   padding: 5px 10px;
+   text-decoration: none;
+   margin: 0 20px;
+  }
+
+}
+
+@media (max-width: 670px) {
+  .head-links {
+    display: inline-block;
+   font-size: 1rem;
+   color: white;
+   padding: 5px 5px;
+   text-decoration: none;
+   margin: 0 10px;
+  }
 }
