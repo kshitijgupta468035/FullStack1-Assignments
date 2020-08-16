@@ -16,6 +16,7 @@ html {
 /* Header Section */
 .header-bar {
   position: sticky;
+
   top: 0px;
   list-style-type: none;
   background-color: grey;
@@ -42,10 +43,11 @@ html {
 
 /* Main Image section */
 .main-image {
-  margin-top: 85px;
+  margin-top: 40px;
   height: 100vh;
   background-image: url("./images/pa8.jpg");
   background-size: cover;
+  border: 1px solid black;
 }
 
 .main-head {
