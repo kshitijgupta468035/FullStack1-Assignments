@@ -106,7 +106,7 @@ html {
   clear: both;
 }
 
-.circle img {
+.team-images img {
   height: 250px;
   width: 250px;
   border-radius: 50%;
@@ -177,18 +177,18 @@ html {
 
 
 /* TEchnologies Section */
-.grid-container {
+.card-container {
   width: 100%;
   margin: 15px auto;
 }
 
-.grid-container::after {
+.card-container::after {
   content: '';
   display: block;
   clear: both;
 }
 
-.grid {
+.card {
   width: 20%;
   float: left;
   margin-left: 50px;
@@ -197,17 +197,17 @@ html {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
 }
 
-.grid>img {
+.card>img {
   width: 100%;
   margin-bottom: 10px;
 }
 
-.grid>h4 {
+.card>h4 {
   margin: 0px 10px;
   text-align: center;
 }
 
-.grid>p {
+.card>p {
   margin: 10px;
   font-size: 15px;
   text-align: justify;
@@ -215,7 +215,7 @@ html {
   color: white;
 }
 
-.grid>a {
+.card>a {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -233,7 +233,7 @@ h1 {
   padding: 25px 0px;
 }
 
-.grid>a:hover {
+.card>a:hover {
   background-color: blue;
 }
 
@@ -288,25 +288,25 @@ h1 {
 
 
   /* Team Section */
-  .circle img {
+  .team-images img {
     margin-left: 15%;
     margin-bottom: 20px;
   }
 
 
   /* Technology Section */
-  .grid-container {
+  .card-container {
     width: 100%;
     margin: 15px auto;
   }
 
-  .grid-container::after {
+  .card-container::after {
     content: '';
     display: block;
     clear: both;
   }
 
-  .grid {
+  .card {
     width: 40%;
     float: left;
     margin-left: 65px;
@@ -316,18 +316,18 @@ h1 {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
   }
 
-  .grid>img {
+  .card>img {
     width: 100%;
     margin-bottom: 10px;
     padding: 20px;
   }
 
-  .grid>h4 {
+  .card>h4 {
     margin: 0px 10px;
     text-align: center;
   }
 
-  .grid>p {
+  .card>p {
     margin: 10px;
     font-size: 20px;
     text-align: justify;
@@ -335,7 +335,7 @@ h1 {
     color: white;
   }
 
-  .grid>a {
+  .card>a {
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -353,7 +353,7 @@ h1 {
     padding: 25px 0px;
   }
 
-  .grid>a:hover {
+  .card>a:hover {
     background-color: blue;
   }
 }
@@ -405,7 +405,7 @@ h1 {
 
 
 /* Team Section */
-  .circle img {
+  .team-images img {
     margin-left: 10%;
     margin-bottom: 20px;
   }
@@ -472,18 +472,18 @@ h1 {
 
 
 /* technology Section */
-  .grid-container {
+  .card-container {
     width: 100%;
     margin: 15px auto;
   }
 
-  .grid-container::after {
+  .card-container::after {
     content: '';
     display: block;
     clear: both;
   }
 
-  .grid {
+  .card {
     width: 40%;
     float: left;
     margin-left: 50px;
@@ -493,18 +493,18 @@ h1 {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
   }
 
-  .grid>img {
+  .card>img {
     width: 100%;
     margin-bottom: 10px;
     padding: 20px;
   }
 
-  .grid>h4 {
+  .card>h4 {
     margin: 0px 10px;
     text-align: center;
   }
 
-  .grid>p {
+  .card>p {
     margin: 10px;
     font-size: 20px;
     text-align: justify;
@@ -512,7 +512,7 @@ h1 {
     color: white;
   }
 
-  .grid>a {
+  .card>a {
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -530,7 +530,7 @@ h1 {
     padding: 25px 0px;
   }
 
-  .grid>a:hover {
+  .card>a:hover {
     background-color: blue;
   }
 }
@@ -590,13 +590,13 @@ h1 {
   }
 
 /* Tea Section */
-  .circle-container {
+  .team-images-container {
     width: 90%;
     margin-left: 10%;
   }
 
 
-  .circle img {
+  .team-images img {
     height: 60%;
     width: 60%;
     margin: 0 17%;
@@ -662,18 +662,18 @@ h1 {
     background-size: cover;
   }
 
-  .grid-container {
+  .card-container {
     width: 100%;
     margin: 15px auto;
   }
 
-  .grid-container::after {
+  .card-container::after {
     content: '';
     display: block;
     clear: both;
   }
 
-  .grid {
+  .card {
     width: 80%;
     float: left;
     margin: 0 10%;
@@ -684,18 +684,18 @@ h1 {
     max-height: 500px;
   }
 
-  .grid>img {
+  .card>img {
     width: 100%;
     margin-bottom: 10px;
     padding: 20px;
   }
 
-  .grid>h4 {
+  .card>h4 {
     margin: 0px 10px;
     text-align: center;
   }
 
-  .grid>p {
+  .card>p {
     margin: 10px;
     font-size: 20px;
     text-align: justify;
@@ -703,7 +703,7 @@ h1 {
     color: white;
   }
 
-  .grid>a {
+  .card>a {
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -721,7 +721,7 @@ h1 {
     padding: 25px 0px;
   }
 
-  .grid>a:hover {
+  .card>a:hover {
     background-color: blue;
   }
 }
