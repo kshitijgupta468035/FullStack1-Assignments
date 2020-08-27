@@ -109,14 +109,17 @@ html {
 }
 
 
+
+
+
+/* About Us Section */
+
 .about-section::after {
   content: "";
   display: block;
   clear: both
 }
 
-
-/* About Us Section */
 .main-content {
   height: 465px;
   background-color: grey;
