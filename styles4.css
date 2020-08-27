@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-
+  scroll-padding-top: 90px;
 }
 
 * {
@@ -8,4 +8,720 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.full-page {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+/* Header section */
+.header {
+  background-color: grey;
+  height: 70px;
+  width: 100%;
+  max-width: 1200px;
+  position: fixed;
+  top: 0;
+}
+
+.header h2 {
+  float: left;
+  line-height: 70px;
+  padding: 0 20px;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.menu {
+  float: right;
+  list-style: none;
+  padding: 0 20px;
+}
+
+.list-items {
+  display: inline-block;
+  line-height: 70px;
+}
+
+.list-items a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+  font-size: 1.3rem;
+}
+
+.list-items a:hover {
+  color: blue;
+  background-color: white;
+}
+
+#chk, .show-btn, .hide-btn {
+  display: none;
+  font-size: 1.8rem;
+  line-height: 70px;
+  color: white;
+  float: right;
+  padding-right: 20px;
+}
+
+.main-image {
+  width: 100%;
+  height: 680px;
+  background-image: url("./images/pa8.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.main-head {
+  color: white;
+  font-size: 3.5rem;
+  margin: 20px 20px;
+}
+
+
+/* All Section margins */
+.team-section, .about-section, .technology-section, .contact-section {
+  margin: 100px 0 0 0;
+}
+
+
+/* All Headings */
+.head1, .head2, .head3, .head4 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+
+/* Team section */
+.team-section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.circle img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.about-section::after {
+  content: "";
+  display: block;
+  clear: both
+}
+
+.main-content {
+  height: 465px;
+  background-color: grey;
+  text-align: justify;
+  float: left;
+  width: 48%;
+  overflow: hidden;
+}
+
+.main-content h2 {
+  margin: 20px 10px;
+  color: white;
+}
+
+.main-content p {
+  padding: 10px;
+  line-height: 1.5;
+  color: white;
+}
+
+.articles {
+  float: right;
+  width: 48%;
+  height: 465px;
+}
+
+.ar-1, .ar-2, .ar-3 {
+  text-align: center;
+  font-size: 1.5rem;
+  height: 145px;
+  background-color: lightblue;
+  margin-bottom: 15px;
+}
+
+.ar-1 {
+  background-image: url("./images/p1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ar-2 {
+  background-image: url("./images/p2.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ar-3 {
+  margin: 0;
+  background-image: url("./images/p3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/* TEchnologies Section */
+.grid-container {
+  width: 100%;
+  margin: 15px auto;
+}
+
+.grid-container::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid {
+  width: 20%;
+  float: left;
+  margin-left: 50px;
+  background-color: lightgrey;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.grid>img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.grid>h4 {
+  margin: 0px 10px;
+  text-align: center;
+}
+
+.grid>p {
+  margin: 10px;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 25px;
+  color: white;
+}
+
+.grid>a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  background-color: red;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+h1 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.grid>a:hover {
+  background-color: blue;
+}
+
+
+/* Contact Information */
+.contact-information {
+  text-align: center;
+  background-color: #cffffe;
+  padding: 5%;
+  padding-top: 30px;
+}
+
+.contact-information a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 30px 10px 0;
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: #ebecf1;
+  padding: 5px 10px;
+}
+
+.contact-information p {
+  margin-top: 30px;
+  font-size: 2rem;
+  color: #00bcd4;
+}
+
+
+/* First break point  */
+/* 801px to 1199px */
+@media (min-width: 801px) and (max-width: 1199px) {
+
+  /* Head Section */
+  .menu {
+    padding: 0;
+  }
+
+  .list-items a {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+  }
+
+  .main-image {
+    margin-bottom: 15px;
+  }
+
+  .main-head {
+    font-size: 50px;
+  }
+
+
+  /* Team Section */
+  .circle img {
+    margin-left: 15%;
+    margin-bottom: 20px;
+  }
+
+
+  /* Technology Section */
+  .grid-container {
+    width: 100%;
+    margin: 15px auto;
+  }
+
+  .grid-container::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .grid {
+    width: 40%;
+    float: left;
+    margin-left: 65px;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  .grid>img {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+
+  .grid>h4 {
+    margin: 0px 10px;
+    text-align: center;
+  }
+
+  .grid>p {
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    color: white;
+  }
+
+  .grid>a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px 0px;
+  }
+
+  .grid>a:hover {
+    background-color: blue;
+  }
+}
+
+
+/* Second Break Point */
+@media (min-width: 625px) and (max-width: 800px) {
+
+/* Head Section */
+  .show-btn, .hide-btn {
+    display: block;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s;
+  }
+
+  .list-items {
+    display: block;
+  }
+
+  #chk:checked~.menu {
+    right: 0;
+  }
+
+  .hide-btn {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+
+
+  .main-image {
+    height: 350px;
+  }
+
+  .main-head {
+    font-size: 35px;
+  }
+
+
+/* Team Section */
+  .circle img {
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+
+
+/* About Us section */
+  .about-section::after {
+    content: "";
+    display: block;
+    clear: both
+  }
+
+  .main-content {
+    height: 200px;
+    background-color: grey;
+    text-align: justify;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .main-content h2 {
+    margin: 20px 10px;
+    color: white;
+  }
+
+  .main-content p {
+    padding: 10px;
+    line-height: 1.5;
+    color: white;
+  }
+
+  .articles {
+    width: 100%;
+    height: 465px;
+  }
+
+  .ar-1, .ar-2, .ar-3 {
+    text-align: center;
+    font-size: 1.5rem;
+    height: 145px;
+    background-color: lightblue;
+    margin-bottom: 15px;
+  }
+
+  .ar-1 {
+    background-image: url("./images/p1.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .ar-2 {
+    background-image: url("./images/p2.jpeg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .ar-3 {
+    margin: 0;
+    background-image: url("./images/p3.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+
+/* technology Section */
+  .grid-container {
+    width: 100%;
+    margin: 15px auto;
+  }
+
+  .grid-container::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .grid {
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  .grid>img {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+
+  .grid>h4 {
+    margin: 0px 10px;
+    text-align: center;
+  }
+
+  .grid>p {
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+    color: white;
+  }
+
+  .grid>a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px 0px;
+  }
+
+  .grid>a:hover {
+    background-color: blue;
+  }
+}
+
+/* Third Break point  */
+@media (max-width: 624px) {
+  .full-page {
+    min-width: 320px;
+  }
+
+  /* Header section */
+  .show-btn, .hide-btn {
+    display: block;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s;
+  }
+
+  .list-items {
+    display: block;
+  }
+
+  .list-items a {
+    display: block;
+  }
+
+  #chk:checked~.menu {
+    right: 0;
+  }
+
+  .hide-btn {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+
+/* banner Section */
+  .main-image {
+    height: 250px;
+    margin-bottom: 15px;
+  }
+
+  .main-head {
+    color: white;
+    font-size: 2rem;
+    margin: 20px 20px;
+  }
+
+/* Tea Section */
+  .circle-container {
+    width: 90%;
+    margin-left: 10%;
+  }
+
+
+  .circle img {
+    height: 60%;
+    width: 60%;
+    margin: 0 17%;
+    margin-bottom: 20px;
+  }
+
+/* About Us Section */
+  .about-section::after {
+    content: "";
+    display: block;
+    clear: both
+  }
+
+  .main-content {
+    height: 200px;
+    background-color: grey;
+    text-align: justify;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .main-content h2 {
+    margin: 20px 10px;
+    color: white;
+  }
+
+  .main-content p {
+    padding: 10px;
+    line-height: 1.5;
+    color: white;
+  }
+
+  .articles {
+    width: 100%;
+    height: 465px;
+  }
+
+  .ar-1, .ar-2, .ar-3 {
+    text-align: center;
+    font-size: 1.5rem;
+    height: 145px;
+    background-color: lightblue;
+    margin-bottom: 15px;
+  }
+
+  .ar-1 {
+    background-image: url("./images/p1.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .ar-2 {
+    background-image: url("./images/p2.jpeg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .ar-3 {
+    margin: 0;
+    background-image: url("./images/p3.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .grid-container {
+    width: 100%;
+    margin: 15px auto;
+  }
+
+  .grid-container::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .grid {
+    width: 80%;
+    float: left;
+    margin: 0 10%;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    max-height: 500px;
+  }
+
+  .grid>img {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+
+  .grid>h4 {
+    margin: 0px 10px;
+    text-align: center;
+  }
+
+  .grid>p {
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+    color: white;
+  }
+
+  .grid>a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px 0px;
+  }
+
+  .grid>a:hover {
+    background-color: blue;
+  }
 }
