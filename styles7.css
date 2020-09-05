@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-width: 100%;
+  background-color: lightgrey;
+}
+
+.full-page {
+  background-color: #fff;
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #00b7c2;
+  font-size: 2rem;
+}
+
+.custom-table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.basic {
+  background-color: #c1dcb7;
+}
+
+.plus {
+  background-color: #bad6c8;
+}
+
+.deluxe {
+  background-color: #bbd3dc;
+}
+
+.pro {
+  background-color: #d5e4bc;
+}
+
+.custom-table td, .custom-table th {
+  width: 150px;
+  padding: 8px 5px;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.custom-table th {
+  height: 70px;
+  color: #64548f;
+  font-size: 1.8rem;
+}
+
+tbody tr:nth-child(odd), tfoot tr:nth-child(odd) {
+  background-color: #edf3e2;
+}
+
+tbody tr:first-child td {
+  font-size: 1.5rem;
+  color: darkgreen;
+}
+
+tfoot tr {
+  line-height: 70px;
+}
+
+tfoot td a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #00bcd4;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+tfoot td a:hover {
+  background-color: red;
+
+}
+
+.fa-times {
+  color: red;
+  font-size: 25px;
+}
+
+.fa-check {
+  color: green;
+  font-size: 25px;
+}
