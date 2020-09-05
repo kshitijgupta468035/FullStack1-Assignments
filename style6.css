@@ -2,4 +2,100 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  border: 2px solid #133b5c;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+caption {
+  background-color: #133b5c;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 15px;
+  color: white;
+  font-size: 1.7rem;
+}
+
+thead {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #318fb5;
+}
+
+td {
+  padding: 15px;
+}
+
+tr {
+  border-bottom: 1px solid #e0ece4;
+  padding: 20px;
+}
+
+tr:hover {
+  background-color: #f6f6f6;
+}
+
+td {
+  width: 150px;
+}
+
+.col-1-head {
+  width: 20px;
+  text-align: center;
+
+}
+
+.col-1 {
+  width: 20px;
+  text-align: center;
+  color: #056676;
+}
+
+.col-2 {
+  width: 500px;
+  color: #07689f;
+  font-size: 1.1rem;
+}
+
+.col-4 {
+  color: darkgreen;
+}
+
+.unchecked {
+  color: red;
+}
+
+.fa-edit {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.fa-trash {
+  font-size: 20px;
+}
+
+.fa-edit:hover, .fa-trash:hover {
+  font-size: 30px;
+  color: blue;
+}
+
+
+.practicals-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.practicals-link:hover {
+  font-size: 110%;
 }
