@@ -1,3 +1,4 @@
+/* Universal Tag */
 * {
   padding: 0;
   margin: 0;
@@ -5,6 +6,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* main section */
 .main-section {
   margin-bottom: 20px;
   text-align: center;
@@ -12,10 +14,13 @@
   color: red;
 }
 
+/* Footer Section */
 footer {
   background: #26272b;
 }
 
+
+/* Section 1 */
 .section-1 {
   display: flex;
   flex-direction: row;
@@ -45,6 +50,7 @@ footer {
   line-height: 24px;
 }
 
+/* All links port h2 */
 .links1 h2, .links2 h2, .links3 h2 {
   color: lightgray;
   font-size: 1.4rem;
@@ -52,6 +58,7 @@ footer {
   text-transform: uppercase;
 }
 
+/* targetting all anchor elements */
 a {
   text-decoration: none;
   color: gray;
@@ -61,6 +68,7 @@ a:hover {
   color: orange;
 }
 
+/* targetting all span elements */
 span {
   color: gray;
   padding-left: 10px;
@@ -77,6 +85,8 @@ i {
   padding: 2%;
 }
 
+
+/* Section 2 */
 .section-2 h2 {
   color: gray;
   font-size: 1.7rem;
@@ -95,6 +105,8 @@ i {
   background-color: blue;
 }
 
+
+/* Section -3  */
 .section-3 {
   display: flex;
   justify-content: center;
@@ -138,6 +150,8 @@ i {
   background-color: #ea4c89;
 }
 
+
+/* Section 4 */
 .section-4 {
   display: flex;
   justify-content: center;
