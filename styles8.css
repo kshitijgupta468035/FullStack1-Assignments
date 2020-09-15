@@ -74,6 +74,10 @@ span {
   padding-left: 10px;
 }
 
+.pick {
+  color: blue;
+}
+
 /* font icons */
 i {
   color: gray;
@@ -422,6 +426,11 @@ hr {
   span {
     color: gray;
     padding-left: 10px;
+  }
+
+  .pick {
+    color: blue;
+    display: block;
   }
 
   i {
