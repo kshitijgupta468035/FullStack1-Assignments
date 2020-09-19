@@ -5,3 +5,311 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.container {
+  background-color: #f6f6f6;
+  padding-top: 30px;
+}
+
+
+.first-section h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: red;
+}
+
+.second-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.second-section .form-1 {
+  width: 360px;
+  height: 400px;
+  padding: 20px;
+}
+
+.form-1-sec-1 {
+  background-image: linear-gradient(to right, orange, red);
+  height: 120px;
+  border-radius: 5px;
+}
+
+.form-1-sec-1 h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+  padding-top: 25px;
+  padding:-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.form-1-sec-1 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.form-1-sec-1 ul li {
+  list-style-type: none;
+}
+
+.form-1-sec-1 ul li i {
+  font-size: 20px;
+  margin: 0 10px;
+  color: white;
+}
+
+.form-1-sec-2 {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.form-1-sec-2 .input-1 {
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.form-1-sec-2 .input-2 {
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.form-1-sec-2 .pass {
+  display: block;
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding-top: 10px;
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.form-1-sec-2-part-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.form-1-sec-2-part-1 .button {
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  color: white;
+  padding: 10px 10px;
+  background-color: #637373;
+}
+
+.form-1-sec-2-part-1 p {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-left: 20px;
+  color: #d6e0f0;
+}
+
+
+
+.form-1-sec-2 p a {
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+
+.form-2 {
+  width: 360px;
+  height: 400px;
+  padding: 20px;
+}
+
+.form-2-sec-1 {
+  background-color: white;
+  padding: 20px;
+}
+
+.form-2-sec-1 h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  color:#ec0101;
+  padding: 20px;
+}
+
+.form-2-sec-1 .input-1 {
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.form-2-sec-1 .input-2 {
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.form-2-sec-1 span {
+  font-size: 0.8rem;
+  color: #d6e0f0;
+}
+
+.form-2-sec-1 label a{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin-top: 20px;
+  color: skyblue;
+}
+
+.form-2-sec-1-part-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-2-sec-1-part-1 a {
+  text-decoration: none;
+
+}
+
+.form-2-sec-1-part-1 .sign-up-button{
+  border-radius: 30px;
+  width: 100px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #ff4b5c;
+}
+
+.form-2-sec-1-part-1 p {
+  font-size: 0.8rem;
+  color: #d6e0f0;
+}
+
+
+.form-2-sec-2 {
+  background-color: #3282b8;
+}
+
+.form-2-sec-2 ul {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form-2-sec-2 ul li {
+  list-style-type: none;
+}
+
+.form-2-sec-2 ul li i {
+  font-size: 25px;
+  margin: 0 10px;
+  color: white;
+}
+
+
+.form-3 {
+  padding: 20px;
+  width: 360px;
+  height: 400px;
+}
+
+
+.form-3-sec {
+  background-color: white;
+  pading: 20px;
+}
+
+.form-3-sec-1 {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.form-3-sec-1 h2 {
+  font-size: 1.3rem;
+  color: #050505;
+  padding: 20px;
+  text-align: center;
+}
+
+.form-3-sec-1 .input-1 {
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.form-3-sec-1 .input-2 {
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.form-3-sec-1 a{
+  display:  block;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.form-3-sec-1 .button {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 10px;
+  background-image: linear-gradient(to left, blue, skyblue);
+  color: white;
+  font-weight: bold;
+}
+
+.form-3-sec-1 p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #e97171;
+}
+
+.form-3-sec-2 ul{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.form-3-sec-2 ul li {
+  list-style-type: none;
+  border: 1px white solid;
+  border-radius: 20px;
+  margin: 0 10px;
+  box-shadow: 5px 5px 5px 5px #f1f3f8;
+
+
+}
+
+.form-3-sec-2 ul li i {
+  color: darkblue;
+  padding: 10px 20px;
+}
