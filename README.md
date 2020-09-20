@@ -14,5 +14,5 @@ List of Practicals I already done in this semester
 10. Create a Responsive side bar navigation Menu.
 11. Create a Table that represents Live Practical Book Records.
 12. Create a Custom Price Table Template.                  
-13.Create a Responsive Footer Template.
+13. Create a Responsive Footer Template.
 14. Create login form with different Templates.
