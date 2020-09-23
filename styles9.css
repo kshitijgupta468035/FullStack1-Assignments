@@ -84,6 +84,9 @@ body {
   border-bottom: 1px solid black;
 }
 
+.form-1-sec-2 .input-1:focus {
+  outline: none;
+}
 .form-1-sec-2 .input-2 {
   display: inline-block;
   width: 100%;
@@ -91,6 +94,10 @@ body {
   padding-bottom: 10px;
   border: none;
   border-bottom: 1px solid black;
+}
+
+.form-1-sec-2 .input-2:focus {
+  outline: none;
 }
 
 .form-1-sec-2 .pass {
@@ -160,6 +167,11 @@ body {
   border-bottom: 1px solid black;
 }
 
+.form-2-sec-1 .input-1:focus {
+  outline: none;
+}
+
+
 .form-2-sec-1 .input-2 {
   display: inline-block;
   width: 100%;
@@ -168,6 +180,12 @@ body {
   border: none;
   border-bottom: 1px solid black;
 }
+
+.form-2-sec-1 .input-2:focus {
+  outline: none;
+}
+
+
 
 .form-2-sec-1 span {
   font-size: 0.8rem;
@@ -264,6 +282,10 @@ body {
   border-bottom: 1px solid black;
 }
 
+.form-3-sec-1 .input-1:focus {
+  outline: none;
+}
+
 .form-3-sec-1 .input-2 {
   display: inline-block;
   width: 100%;
@@ -272,6 +294,11 @@ body {
   border: none;
   border-bottom: 1px solid black;
 }
+
+.form-3-sec-1 .input-2:focus {
+  outline: none;
+}
+
 
 .form-3-sec-1 a{
   display:  block;
@@ -317,4 +344,8 @@ body {
 .form-3-sec-2 ul li i {
   color: darkblue;
   padding: 10px 20px;
+}
+
+input[type="text"]:focus {
+  outline: none;
 }
