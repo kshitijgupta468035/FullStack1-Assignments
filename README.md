@@ -16,3 +16,4 @@ List of Practicals I already done in this semester
 12. Create a Custom Price Table Template.                  
 13. Create a Responsive Footer Template.
 14. Create login form with different Templates.
+15. Create a Counter Page using JavaScript.
