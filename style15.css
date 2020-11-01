@@ -23,7 +23,6 @@ body {
 }
 
 .number {
-  display: inline-block;
   margin: 30px 50px;
   font-size: 3rem;
   color: yellow;
@@ -35,4 +34,5 @@ button {
   margin: 0 50px;
   background-color: yellow;
   outline: none;
+  font-size: 3rem;
 }
