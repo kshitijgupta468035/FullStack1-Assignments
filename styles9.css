@@ -11,6 +11,8 @@ body {
 }
 
 /* Complete Page conatiner */
+
+
 .container {
   padding-top: 30px;
 }
@@ -75,6 +77,12 @@ body {
   border-radius: 5px;
 }
 
+
+
+.input-1 {
+color: red;
+}
+
 .form-1-sec-2 .input-1 {
   display: inline-block;
   width: 100%;
@@ -82,6 +90,7 @@ body {
   padding-bottom: 10px;
   border: none;
   border-bottom: 1px solid black;
+color: pink;
 }
 
 .form-1-sec-2 .input-1:focus {
@@ -225,7 +234,9 @@ body {
 .form-2-sec-1-part-1 p {
   font-size: 0.8rem;
   color: #d6e0f0;
+
 }
+
 
 
 .form-2-sec-2 {
