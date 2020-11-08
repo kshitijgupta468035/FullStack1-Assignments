@@ -6,9 +6,11 @@ let add = document.getElementById("add");
 let sub = document.getElementById("sub");
 let number = document.getElementById("number");
 
+
 if (number.innerHTML === "0") {
   sub.disabled = true;
 }
+
 
 add.addEventListener("click", function() {
 
@@ -25,6 +27,7 @@ add.addEventListener("click", function() {
 
 
 sub.addEventListener("click", function() {
+
   let decrease = Number(number.innerHTML) - 1;
   number.innerHTML = decrease;
   if (number.innerHTML === "0") {
