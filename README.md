@@ -17,3 +17,5 @@ List of Practicals I already done in this semester
 13. Create a Responsive Footer Template.
 14. Create login form with different Templates.
 15. Create a Counter Page using JavaScript.
+16. Create a To-do List using JavaScript.
+17. Create a Page with Live Clock with Dynamic Greeting Background and Data Stored in Browser Local Storage.
