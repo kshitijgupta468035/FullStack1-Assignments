@@ -19,3 +19,4 @@ List of Practicals I already done in this semester
 15. Create a Counter Page using JavaScript.
 16. Create a To-do List using JavaScript.
 17. Create a Page with Live Clock with Dynamic Greeting Background and Data Stored in Browser Local Storage.
+18. Create an HTML Form and Validate it with Javascript (Client-side Programming Language). 
